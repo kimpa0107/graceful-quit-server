@@ -19,7 +19,7 @@ func main() {
 
 	go func() {
 		err := s.Run(":8080")
-    if err != nil {
+    		if err != nil {
 			log.Fatalf("cannot start server: %v\n", err)
 		}
 	}()
